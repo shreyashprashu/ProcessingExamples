@@ -1,13 +1,13 @@
 public class Ball{
   
-private int X=100;
-private int Y=100;
-private int dY=5;
-private int dX=5;
-private int size=50;
+private float X;
+private float Y;
+private float dY;
+private float dX;
+private float size;
 
 //constructor 
- public Ball(int X, int Y,int dY,int dX, int size){
+ public Ball(float X, float Y,float dY,float dX, float size){
   this.X=X;
   this.dX=dX;
   this.Y=Y;
@@ -54,38 +54,38 @@ public void isColliding(){
 };   
    
 //setter getter for X
-public void setX(int X){
+public void setX(float X){
      this.X=X;
 }
-public int getX(){
+public float getX(){
 return this.X;
 }
 //setter getter for Y
-public void setY(int Y){
+public void setY(float Y){
      this.Y=Y;
 }
-public int getY(){
+public float getY(){
 return this.Y;
 }     
 //setter getter for dX
-public void setdX(int dX){
+public void setdX(float dX){
      this.dX=dX;
 }
-public int getdX(){
+public float getdX(){
 return this.dX;
 }
 //setter getter for dY
-public void setdY(int dY){
+public void setdY(float dY){
     this.dY=dY;
 }
-public int getdY(){
+public float getdY(){
 return this.dY;
 }  
 //setter getter for size of circle
-public void setsize(int size){
+public void setsize(float size){
     this.size=size;
 }
-public int getsize(){
+public float getsize(){
 return this.size;
 }  
 //extra method for providing abstraction
